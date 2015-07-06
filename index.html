@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- build:css(.) lib/modal/modal.css -->
+    <link rel="stylesheet" href="lib/modal/modal.css"/>
+    <!-- endbuild -->
+</head>
+<body>
+<button type="button" id="button">点击</button>
+<!-- build:js(.) lib/modal/modal.js -->
+<script src="lib/modal/modal.js"></script>
+<!-- endbuild -->
+<script>
+    var btn = document.getElementById('button');
+    btn.onclick = function() {
+        var modal = new Modal();
+        modal.init();
+    };
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "focalhot-modal",
+  "version": "1.0.4",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Warren Xia"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-contrib-cssmin": "~0.10.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express": "^1.4.1",
+    "grunt-filerev": "^2.1.2",
+    "grunt-jslint": "^1.1.14",
+    "grunt-usemin": "~3.0.0",
+    "jshint-stylish": "^2.0.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "focalhot-frontend@1.0.4",
+  "_shasum": "9eb4981e66af5fe4f3aac03001a359ec5fa8bffe",
+  "_from": "focalhot-frontend@"
+}

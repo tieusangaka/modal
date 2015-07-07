@@ -16,7 +16,9 @@
 <script>
     var btn = document.getElementById('button');
     btn.onclick = function() {
-        var modal = new Modal();
+        var modal = new Modal({
+            html: '<h2>FocalHot Modal</h2>'
+        });
         modal.open();
     };
 </script>

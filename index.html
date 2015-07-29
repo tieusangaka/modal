@@ -18,7 +18,9 @@
     btn.onclick = function() {
         var modal = new Modal({
             title: '弹窗展示',
-            src: 'page.html'
+            src: 'page.html',
+            okValue: '确定',
+            cancelValue: '取消'
         });
         modal.open();
     };

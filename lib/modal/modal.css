@@ -1,9 +1,10 @@
 .focalhot-overlay{z-index:9998;position: fixed;top:0;left:0;width: 100%;height: 100%;background: #000;opacity: 0.7;filter:alpha(opacity=70);}
 .focalhot-modal{z-index:9999;position: fixed;background: #fff;color: #333;}
+.focalhot-modal iframe{display: block;}
 .focalhot-modal-header{position:relative;width:100%;height: 30px;background: #ccc;}
 .focalhot-modal-title{padding: 0 10px;line-height: 30px;font-weight: bold;}
-.focalhot-modal-close{position:absolute;top:5px;right:5px;display: block;width: 20px;height: 20px;background: #fff;}
-.focalhot-modal-footer{height: 30px;line-height:30px;text-align: center;}
-.focalhot-modal-ok, .focalhot-modal-cancel{margin:0 10px;padding:0 10px;display: inline-block;height: inherit;border: none;font-size: 14px;}
+.focalhot-modal-close{position:absolute;top:5px;right:5px;display: block;width: 20px;height: 20px;background: url("focalhot-modal-close.png") no-repeat;cursor: pointer;}
+.focalhot-modal-footer{padding:20px 0;height: 30px;line-height:30px;text-align: center;}
+.focalhot-modal-ok, .focalhot-modal-cancel{margin:0 10px;padding:0 10px;display: inline-block;height: inherit;border: none;font-size: 14px;cursor: pointer;}
 .focalhot-modal-ok{background: #2694ff;}
 .focalhot-modal-cancel{background: #eee;}

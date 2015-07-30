@@ -20,7 +20,19 @@
             title: '弹窗展示',
             src: 'page.html',
             okValue: '确定',
-            cancelValue: '取消'
+            okBefore: function () {
+                alert('确定关闭前');
+            },
+            okAfter: function () {
+                alert('确定关闭后');
+            },
+            cancelValue: '取消',
+            cancelBefore: function () {
+                alert('取消关闭前');
+            },
+            cancelAfter: function () {
+                alert('取消关闭后');
+            }
         });
         modal.open();
     };

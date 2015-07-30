@@ -16,7 +16,7 @@
 <script>
     var btn = document.getElementById('button');
     btn.onclick = function() {
-        var modal = new Modal({
+        new Modal({
             title: '弹窗展示',
             src: 'page.html',
             okValue: '确定',
@@ -33,8 +33,7 @@
             cancelAfter: function () {
                 alert('取消关闭后');
             }
-        });
-        modal.open();
+        }).show();
     };
 </script>
 </body>

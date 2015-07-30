@@ -10,15 +10,17 @@
 </head>
 <body>
 <button type="button" id="button">点击</button>
+<div class="demo" id="demo">sdasdfadfs</div>
 <!-- build:js(.) lib/modal/modal.js -->
 <script src="lib/modal/modal.js"></script>
 <!-- endbuild -->
 <script>
     var btn = document.getElementById('button');
+    var content = document.getElementById('demo');
     btn.onclick = function() {
         new Modal({
             title: '弹窗展示',
-            src: 'page.html',
+            content: content,
             okValue: '确定',
             okBefore: function () {
                 alert('确定关闭前');
